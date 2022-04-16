@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bechelor Solution</string>
+    <string name="log_in">Log in</string>
+    <string name="register">Register</string>
+    <string name="todo">TODO</string>
+    <string name="email">Enter your email address</string>
+    <string name="password">Enter your password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="name">Enter your full name</string>
+    <string name="phone">Enter your phone number</string>
+    <string name="already_registered">Already have an account? Log in</string>
+    <string name="no_account">Not registered yet? Register now</string>
+    <string name="register_alert_text">A verification mail will sent to the email to verify you. Please enter a valid email address.</string>
+    <string name="cancel">Cancel</string>
+    <string name="signup_hint">Signup</string>
+    <string name="resend_email">Resend Verification Email</string>
+
+</resources>
