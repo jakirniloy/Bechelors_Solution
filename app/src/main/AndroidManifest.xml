@@ -10,11 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bechelors_Solution">
         <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
-
         <activity
-            android:name=".signup"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,8 +26,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"></activity>
     </application>
 
 </manifest>
