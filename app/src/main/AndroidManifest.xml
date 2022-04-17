@@ -10,7 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bechelors_Solution">
         <activity
+<<<<<<< HEAD
             android:name=".signup"
+=======
+            android:name=".application"
+>>>>>>> 7fb8f46633137e8b7f8b277cc30b0bdf5bea848f
             android:exported="false" />
         <activity
             android:name=".login"
