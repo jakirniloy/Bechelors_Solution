@@ -10,9 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bechelors_Solution">
         <activity
+            android:name=".application"
+            android:exported="false" />
+        <activity
             android:name=".login"
             android:exported="false" />
-
         <activity
             android:name=".signup"
             android:exported="true">
@@ -24,8 +26,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"></activity>
     </application>
 
 </manifest>
