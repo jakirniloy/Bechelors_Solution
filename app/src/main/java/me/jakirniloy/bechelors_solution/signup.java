@@ -183,7 +183,7 @@ public class signup extends AppCompatActivity {
                 if (task.isSuccessful()) {
                     // Sign in success, update UI with the signed-in user's information
 
-                    String imageUrl = "https://firebasestorage.googleapis.com/v0/b/abiskar-sabikrahat-72428.appspot.com/o/default_profile_pic.png?alt=media&token=0895a23f-b5b2-4dee-ade0-32d560815234";
+                    String imageUrl = "https://firebasestorage.googleapis.com";
 
                     Random rnd = new Random();
                     int tempId = rnd.nextInt(999999);

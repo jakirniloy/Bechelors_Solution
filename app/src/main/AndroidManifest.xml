@@ -10,16 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bechelors_Solution">
         <activity
-<<<<<<< HEAD
-            android:name=".signup"
-=======
-            android:name=".application"
->>>>>>> 7fb8f46633137e8b7f8b277cc30b0bdf5bea848f
-            android:exported="false" />
-        <activity
-            android:name=".login"
-            android:exported="false" />
-        <activity
             android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
@@ -28,6 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".signup"/>
+        <activity
+            android:name=".application"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="false"></activity>

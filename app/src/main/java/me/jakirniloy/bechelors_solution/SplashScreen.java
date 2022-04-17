@@ -23,7 +23,9 @@ private int progress;
             @Override
             public void run() {
                 dowork();
-                Startapp();
+                Intent intent = new Intent(SplashScreen.this,login.class);
+                startActivity(intent);
+
             }
         });
         thread.start();
@@ -40,9 +42,5 @@ private int progress;
 
 
     }
-    public void Startapp(){
-        Intent intent = new Intent(SplashScreen.this,login.class);
-        startActivity(intent);
-        finish();
-    }
+
 }

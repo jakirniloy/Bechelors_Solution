@@ -8,14 +8,9 @@
         <entry key="..\:/10th Semester/CSE 489/Project/Bechelors_Solution/app/src/main/res/layout/activity_application.xml" value="0.3625" />
         <entry key="..\:/10th Semester/CSE 489/Project/Bechelors_Solution/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/10th Semester/CSE 489/Project/Bechelors_Solution/app/src/main/res/layout/activity_signup.xml" value="0.2578125" />
-<<<<<<< HEAD
-        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1295" />
-        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25364583333333335" />
-        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.25364583333333335" />
-=======
+        <entry key="..\:/10th Semester/CSE 489/Project/Bechelors_Solution/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/10th Semester/CSE 489/Project/Bechelors_Solution/app/src/main/res/menu/main_application.xml" value="0.18541666666666667" />
         <entry key="..\:/10th Semester/CSE 489/Project/Bechelors_Solution/app/src/main/res/menu/user_profile_menu.xml" value="0.18541666666666667" />
->>>>>>> 7fb8f46633137e8b7f8b277cc30b0bdf5bea848f
       </map>
     </option>
   </component>
