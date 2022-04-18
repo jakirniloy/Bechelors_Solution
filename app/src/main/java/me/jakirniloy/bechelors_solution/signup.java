@@ -183,7 +183,7 @@ public class signup extends AppCompatActivity {
                 if (task.isSuccessful()) {
                     // Sign in success, update UI with the signed-in user's information
 
-                    String imageUrl = "https://firebasestorage.googleapis.com";
+
 
                     Random rnd = new Random();
                     int tempId = rnd.nextInt(999999);
@@ -192,7 +192,7 @@ public class signup extends AppCompatActivity {
                     SimpleDateFormat sdf = new SimpleDateFormat("E, dd MMM yyyy 'at' hh:mm a");
                     String currentDateandTime = sdf.format(new Date());
 
-                   User user = new User(mAuth.getCurrentUser().getUid(), rid, currentDateandTime, "Guest", email, name, phone, imageUrl, "Guest", "true");
+                   User user = new User(mAuth.getCurrentUser().getUid(), rid, currentDateandTime, email, name, phone, "Mannager", "true");
 
                     //Users information by UID
                     DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReference("Users");
